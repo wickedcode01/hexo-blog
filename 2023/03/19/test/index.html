@@ -113,10 +113,10 @@
   <script>
     var disqus_shortname = 'jimmys-blog-4';
     var disqus_website = 'https://wickedcode01.github.io/hexo-blog/2023/03/19/test/index.html';
+    var disqus_identifier = 'peom by shakespeare'
     var disqus_config = function () {
       this.page.url = disqus_website;
-      // 不同的文章评论区区分开
-      this.page.identifier = window.location.pathname;
+      this.page.identifier = disqus_identifier;
     };
     (function () {
       var d = document, s = d.createElement('script');

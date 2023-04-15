@@ -106,3 +106,9 @@ deploy:
   repo: https://github.com/wickedcode01/hexo-blog
   # example, https://github.com/hexojs/hexojs.github.io
   branch: gh-pages
+
+# hexo-admin authentification
+admin:
+  username: wickedcode
+  password_hash: $2a$10$B4slPt9ZFbekNbnP.ZUGae7ypPRaklpJXbYqvMTCeeaBpgo4iQvNG
+  secret: my sauce

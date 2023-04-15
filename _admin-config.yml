@@ -1,0 +1,11 @@
+options:
+  spellcheck: true
+  askImageFilename: false
+  overwriteImages: true
+  imagePath: /images
+  imagePrefix: cdn-
+  lineNumbers: true
+editor:
+  inputStyle: contenteditable
+  spellcheck: true
+  lineNumbers: true
